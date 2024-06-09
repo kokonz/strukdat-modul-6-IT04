@@ -357,9 +357,9 @@ int main() {
                 cout << "Bike - First hour: 5,000 IDR, Additional hour: 2,000 IDR" << endl;
 
                 if (typeChoice == 1) {
-                    cout << "Do you want valet parking? (1 for Yes, 2 for No): (Additional valet charge for car: 100,000 IDR): ";
+                    cout << "Do you want valet parking for 100,000 IDR additional charge? (1 for Yes, 2 for No):";
                 } else if (typeChoice == 2) {
-                    cout << "Do you want valet parking? (1 for Yes, 2 for No): (Additional valet charge for bike: 50,000 IDR): ";
+                    cout << "Do you want valet parking for 50,000 IDR additional charge? (1 for Yes, 2 for No):";
                 }
 
                 int valetChoice;
